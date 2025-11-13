@@ -1,0 +1,22 @@
+* {
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #f5c518;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ffd700;
+  text-shadow: 0 0 8px rgba(245, 197, 24, 0.3);
+}
